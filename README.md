@@ -21,8 +21,8 @@ ROS2 modules for humanoid robot task coordination on the Unitree G1 — percepti
 ## Setup
 
 ```bash
-cd ~/your_ws/src
-git clone git@github.com:YOUR_USERNAME/g1-hri-coordination.git
+git clone https://github.com/jrm226-spec/G1-Coordination.git
+cd g1_hri_coordination
 cd ..
 colcon build
 source install/setup.bash
