@@ -43,9 +43,9 @@ G1-Coordination/
 ## Current Progress Order:
 
 Perception Module
-        ↓
+-->
 Manipulation Module
-        ↓
+-->
 Navigation Module
-        ↓
+-->
 Coordination Module
