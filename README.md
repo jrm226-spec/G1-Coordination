@@ -1,4 +1,4 @@
-# G1 Coordination
+# G1 Coordination - CURRENT WIP
 
 ROS2 modules for humanoid robot task coordination on the Unitree G1 — perception, manipulation, navigation, and a coordination layer for multi-modal action plan generation.
 
