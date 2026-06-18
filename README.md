@@ -2,6 +2,14 @@
 
 ROS2 modules for humanoid robot task coordination on the Unitree G1 — perception, manipulation, navigation, and a coordination layer for multi-modal action plan generation.
 
+## Current Progress
+
+Created overall structure and temporary code within the packages.
+
+## Future Plans for Progress
+
+Testing and reiterating perception code, seeing its performance in IsaacSim.
+
 ## Packages
 
 | Package | Description |
@@ -39,13 +47,3 @@ G1-Coordination/
 │   ├── g1_navigation/
 │   └── g1_coordination/
 ```
-
-## Current Progress Order:
-
-Perception Module
--->
-Manipulation Module
--->
-Navigation Module
--->
-Coordination Module
