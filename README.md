@@ -1,4 +1,4 @@
-# G1 HRI Coordination
+# G1 Coordination
 
 ROS2 modules for humanoid robot task coordination on the Unitree G1 — perception, manipulation, navigation, and a coordination layer for multi-modal action plan generation.
 
@@ -28,23 +28,24 @@ colcon build
 source install/setup.bash
 ```
 
-## Running
-
-Launch individual modules:
-```bash
-ros2 launch g1_perception perception.launch.py
-ros2 launch g1_manipulation manipulation.launch.py
-ros2 launch g1_navigation navigation.launch.py
-ros2 launch g1_coordination coordination.launch.py
-```
-
 ## Project Structure
 
 ```
-g1_hri_coordination/
-├── g1_interfaces/        # Shared msgs, srvs, actions
-├── g1_perception/        # Perception module
-├── g1_manipulation/      # Manipulation module
-├── g1_navigation/        # Navigation module
-└── g1_coordination/      # Coordination module
+G1-Coordination/
+├── src/
+│   ├── g1_interfaces/
+│   ├── g1_perception/
+│   ├── g1_manipulation/
+│   ├── g1_navigation/
+│   └── g1_coordination/
 ```
+
+## Current Progress Order:
+
+**Perception Module
+
+Manipulation Module
+
+Navigation Module
+
+Coordination Module**
